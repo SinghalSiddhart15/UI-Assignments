@@ -1,0 +1,119 @@
+.section {
+	&_form_div {
+		border: 2px solid #8b8682;
+		text-align: center;
+		float: left;
+		width: 50%;
+		padding: 10px;
+		font-size: 30px;
+		position: relative;
+		top: 25px;
+		left: 200px;
+		font-family: verdana;
+		height: 680px;
+		color: #ffffff;
+		background: url("http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/uploads/2015/10/AppDirect.jpeg") no-repeat;
+		background-position: center;
+		background-size: 140%;
+		list-style-type: none;
+	}
+
+	&_form_inner_div {
+		display: flex;
+	}
+
+	&_form_ul {
+		list-style-type: none;
+		font-size: 28px;
+
+		&_ul {
+			list-style-type: none;
+
+			&_ul {
+				font-size: 14px;
+			}
+		}
+
+		&_li {
+			margin-bottom: 21px;
+
+			&_check {
+				margin-left: 120px;
+			}
+		}
+	}
+
+	&_form_button_res {
+		background-color: #4682b4;
+		color: #ffffff;
+		padding: 15px 40px 15px 40px;
+		font-size: 20px;
+		right: 60px;
+		position: relative;
+		top: 20px;
+	}
+
+	&_form_button_reg {
+		color: #ffffff;
+		padding: 15px 40px 15px 40px;
+		font-size: 20px;
+		position: relative;
+		top: 20px;
+	}
+}
+
+.dash_div {
+	border: 2px solid #8b8682;
+	float: right;
+	width: 30%;
+	text-align: center;
+	top: 25px;
+	position: relative;
+	right: 15px;
+	height: 700px;
+	font-size: 30px;
+	font-family: verdana;
+	overflow: scroll;
+	background-color: #3B3738;
+	color: #cec4b1;
+}
+
+dash_class {
+	margin-left: 107px;
+}
+
+#parent-div {
+	display: flex;
+	flex-direction: column;
+}
+
+#child-button {
+	width: 150px;
+	margin-top: 20px;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+input {
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid #8b8682;
+	width: 200px;
+}
+
+.testclass {
+	background: transparent;
+	color: #cec4b1;
+	border: none;
+	font-size: 24px;
+	width: 290px;
+	padding-bottom: 5px;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+	margin-left: 67px;
+}

@@ -1,0 +1,57 @@
+.footer {
+	border-top: 1px solid #d3d3d3;
+	border-left: 130px;
+	top: 750px;
+	position: relative;
+	color: #9c9c9c;
+	font: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+	&_ul {
+		list-style-type: none;
+		display: flex;
+		position: relative;
+		right: 650px;
+	}
+
+	&_logo {
+		background: url("appdirect_footer.png") no-repeat;
+		width: 20px;
+		height: 20px;
+		background-size: contain;
+		position: absolute;
+	}
+
+	&_ul_tag {
+		left: 40px;
+		position: relative;
+		display: flex;
+		width: 500px;
+	}
+
+	&_ul_lang {
+		left: 75px;
+		position: relative;
+		color: #9c9c9c;
+	}
+
+	&_ul_help {
+		position: relative;
+		width: 160px;
+		left: 110px;
+		display: flex;
+	}
+
+	&_ul_privacy {
+		position: relative;
+		width: 80px;
+		left: 60px;
+		display: flex;
+	}
+
+	&_ul_tc {
+		position: relative;
+		width: 230px;
+		left: 70px;
+		display: flex;
+	}
+}
