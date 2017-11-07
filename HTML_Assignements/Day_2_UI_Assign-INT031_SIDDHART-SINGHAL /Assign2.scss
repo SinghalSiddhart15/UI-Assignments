@@ -1,0 +1,314 @@
+$color-var-1: #d6d6d6;
+$color-var-2: #353535;
+$color-var-3: #5f6062;
+$color-var-4: #000000;
+$color-var-5: #fff;
+$color-var-6: #d9272d;
+$color-var-7: #e0e0e0;
+$color-var-8: #585858;
+$color-var-9: #a2a2a2;
+
+.header {
+	height: 140px;
+	width: 100px;
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	&_logo {
+		background: url("FirstImg.png") no-repeat;
+		width: 250px;
+		height: 150px;
+		display: block;
+		background-size: contain;
+		list-style-type: none;
+
+		&_class {
+			display: block;
+
+			&_ul {
+				display: flex;
+				background-color: $color-var-1;
+				width: 1200px;
+				color: $color-var-3;
+				height: 41px;
+				padding: 0;
+				align-self: center;
+				list-style-type: none;
+				text-align: center;
+				font-family: "Open Sans", sans-serif;
+
+				&_li {
+					align-self: center;
+					display: flex;
+					margin-left: 40px;
+
+					&_anhr {
+						text-decoration: none;
+						margin-left: 10px;
+						color: $color-var-4;
+						font-size: 14px;
+
+						&_buisness {
+							background-color: $color-var-2;
+							color: $color-var-5;
+							text-decoration: none;
+							height: 100%;
+							width: 100%;
+							padding-top: 10px;
+							padding-right: 11px;
+							padding-left: 11px;
+							padding-bottom: 12px;
+						}
+
+						&_span {
+							color: red;
+							margin-left: -30px;
+
+							&_scnd {
+								border: 1px solid $color-var-6;
+								background-color: $color-var-6;
+								color: $color-var-5;
+								margin-left: -30px;
+								padding: 5px 5px 5px 5px;
+							}
+
+							&_thrd {
+								margin-left: -30px;
+							}
+						}
+					}
+
+					&_ul {
+						display: flex;
+						background-color: $color-var-5;
+						width: 1100px;
+						height: 90px;
+						padding: 0;
+						margin-left: 70px;
+						color: $color-var-4;
+						align-self: center;
+						list-style-type: none;
+						font-weight: 300;
+						font-family: "Open Sans", sans-serif;
+
+						&_li {
+							list-style-type: none;
+							display: flex;
+							align-self: center;
+							margin-left: 70px;
+							font-weight: 400;
+
+							&_span {
+								border: 1px solid $color-var-6;
+								background-color: $color-var-6;
+								color: $color-var-5;
+								padding: 7px 30px 7px 30px;
+								font-family: 'Open Sans', sans-serif;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.footer {
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+	top: 100px;
+
+	&_div {
+		position: relative;
+		bottom: 95px;
+
+		&_span {
+			width: 100%;
+			height: 55px;
+			border-top: 1px solid $color-var-7;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			display: flex;
+			justify-content: center;
+			font-size: 25px;
+			border: 10px;
+			background-color: $color-var-6;
+			padding: 10px;
+			color: $color-var-5;
+			font-family: 'Open Sans', sans-serif;
+			top: 213px;
+			padding-top: 25px;
+			padding-right: 10px;
+			padding-bottom: 20px;
+			padding-left: 10px;
+
+			&_class {
+				background-color: $color-var-8;
+				height: 100px;
+				top: 215px;
+				position: relative;
+				padding: 150px;
+				display: flex;
+				font-size: 14px;
+				overflow: hidden;
+				margin: 0;
+
+				&_logo {
+					list-style-type: none;
+					position: relative;
+					bottom: 120px;
+					left: 50px;
+
+					&_anhr {
+						background: url("logofooter.png") no-repeat;
+						width: 200px;
+						height: 100px;
+						display: block;
+						background-size: contain;
+						list-style-type: none;
+						right: 30px;
+						top: 600px;
+					}
+				}
+
+				&_ul {
+					list-style-type: none;
+					position: relative;
+					right: 170px;
+					font-family: 'Open Sans', sans-serif;
+
+					&_li {
+						margin: 3px 0;
+						color: $color-var-9;
+						font-family: 'Open Sans', sans-serif;
+
+						&_ul {
+							list-style-type: none;
+							position: relative;
+							bottom: 31px;
+							left: 430px;
+							font-weight: 100;
+							color: $color-var-9;
+							font-size: 14px;
+
+							&_li {
+								margin: 5px 0;
+								color: $color-var-9;
+								font-family: 'Open Sans', sans-serif;
+
+								&_ul {
+									list-style-type: none;
+									position: relative;
+									bottom: 130px;
+									left: 655px;
+									font-weight: 100;
+									color: $color-var-9;
+									font-size: 14px;
+
+									&_li {
+										margin: 5px 0;
+										color: $color-var-9;
+										font-family: 'Open Sans', sans-serif;
+
+										&_ul {
+											list-style-type: none;
+											position: relative;
+											bottom: 265px;
+											left: 860px;
+											font-weight: 100;
+											color: $color-var-9;
+											font-size: 14px;
+
+											&_li {
+												margin: 5px 0;
+												color: $color-var-9;
+												font-family: 'Open Sans', sans-serif;
+
+												&_ul {
+													list-style-type: none;
+													position: relative;
+													bottom: 380px;
+													left: 1075px;
+													font-weight: 100;
+													color: $color-var-9;
+													font-size: 14px;
+
+													&_li {
+														margin: 5px 0;
+														color: $color-var-9;
+														font-family: 'Open Sans', sans-serif;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+
+				&_span {
+					color: $color-var-9;
+					position: relative;
+					left: 280px;
+					top: -350px;
+					font-size: 14px;
+					font-family: 'Open Sans', sans-serif;
+
+					&_corneer_logo {
+						background: url("insta.png") no-repeat;
+						display: block;
+						background-size: 100% 100%;
+						height: 40px;
+						width: 40px;
+						position: relative;
+						left: 1280px;
+						bottom: 400px;
+
+						&_scnd {
+							background: url("twitter.png") no-repeat;
+							display: block;
+							background-size: 100% 100%;
+							height: 40px;
+							width: 40px;
+							position: relative;
+							left: 1320px;
+							bottom: 440px;
+						}
+
+						&_thrd {
+							background: url("fb.png") no-repeat;
+							display: block;
+							background-size: 100% 100%;
+							height: 40px;
+							width: 40px;
+							position: relative;
+							left: 1360px;
+							bottom: 482px;
+						}
+					}
+				}
+
+				&_passive {
+					color: $color-var-5;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	width: 120px;
+}
